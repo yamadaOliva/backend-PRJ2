@@ -1,0 +1,164 @@
+{
+    "filmUpcoming": [
+        {
+            "name": "PAW PATROL: PHIM SIÊU ĐẲNG",
+            "time": "100",
+            "timeStart": "20/09/2023",
+            "description": "Bộ phim về cuộc phiêu lưu của nhóm thú cưng dũng cảm.",
+            "genre": ["Hoạt hình", "Phiêu lưu"],
+            "category": "2D"
+        },
+        {
+            "name": "NGƯỜI DƠI BẮT ĐẦU",
+            "time": "120",
+            "timeStart": "21/09/2023",
+            "description": "Hành trình trở thành Người Dơi huyền thoại của Bruce Wayne.",
+            "genre": ["Hành động", "Phiêu lưu"],
+            "category": "2D"
+        },
+        {
+            "name": "THE IU CONCERT: GOLDEN HOUR - THỜI KHẮC QUÝ GIÁ",
+            "time": "90",
+            "timeStart": "23/09/2023",
+            "description": "Một buổi biểu diễn âm nhạc đỉnh cao từ nữ ca sĩ IU.",
+            "genre": ["Âm nhạc", "Trình diễn"],
+            "category": "2D"
+        },
+        {
+            "name": "MUÔN KIẾP NHÂN DUYÊN",
+            "time": "135",
+            "timeStart": "24/09/2023",
+            "description": "Câu chuyện tình yêu bất diệt qua muôn kiếp re-incarnation.",
+            "genre": ["Lãng mạn", "Hài hước"],
+            "category": "2D"
+        },
+        {
+            "name": "THẢM HỌA MƯA AXIT",
+            "time": "120",
+            "timeStart": "25/09/2023",
+            "description": "Cuộc chiến để sinh tồn sau thảm họa mưa axit.",
+            "genre": ["Khoa học viễn tưởng", "Hành động"],
+            "category": "2D"
+        },
+        {
+            "name": "VŨ ĐIỆU QUỶ DỮ",
+            "time": "112",
+            "timeStart": "26/09/2023",
+            "description": "Bộ phim kịch tính về cuộc chiến chống lại các thế lực quỷ dữ.",
+            "genre": ["Kịch tính", "Hành động"],
+            "category": "2D"
+        },
+        {
+            "name": "MANSUANG: KỲ ÁN NHÀ HÁT THIÊN ĐƯỜNG",
+            "time": "110",
+            "timeStart": "27/09/2023",
+            "description": "Một kịch tính kỳ án xảy ra tại Nhà hát Thiên Đường.",
+            "genre": ["Kịch tính", "Bí ẩn"],
+            "category": "2D"
+        },
+        {
+            "name": "KẺ KIẾN TẠO",
+            "time": "118",
+            "timeStart": "28/09/2023",
+            "description": "Cuộc chiến đầy mạo hiểm với kẻ kiến tạo.",
+            "genre": ["Hành động", "Kịch tính"],
+            "category": "2D"
+        },
+        {
+            "name": "AI YÊU AI",
+            "time": "125",
+            "timeStart": "30/09/2023",
+            "description": "Bộ phim tình cảm về tình yêu và sự đối đầu.",
+            "genre": ["Tình cảm", "Hài hước"],
+            "category": "2D"
+        },
+        {
+            "name": "GIAO LỘ 8675",
+            "time": "130",
+            "timeStart": "02/10/2023",
+            "description": "GIAO LỘ 8675 là bộ phim kỳ bí với những bí ẩn đen tối.",
+            "genre": ["Bí ẩn", "Kinh dị"],
+            "category": "2D"
+        },
+        {
+            "name": "QUỶ ÁM: TÍN ĐỒ",
+            "time": "122",
+            "timeStart": "04/10/2023",
+            "description": "Bộ phim kinh dị về một tín đồ và sự sợ hãi.",
+            "genre": ["Kinh dị", "Bí ẩn"],
+            "category": "2D"
+        },
+        {
+            "name": "ĐẤT RỪNG PHƯƠNG NAM",
+            "time": "118",
+            "timeStart": "06/10/2023",
+            "description": "Sự sống và cuộc chiến tranh trong đất rừng phương Nam.",
+            "genre": ["Kịch tính", "Hành động"],
+            "category": "2D"
+        },
+        {
+            "name": "VẦNG TRĂNG MÁU",
+            "time": "126",
+            "timeStart": "08/10/2023",
+            "description": "Bộ phim về tình yêu đẫm máu và trả thù đầy kịch tính.",
+            "genre": ["Kịch tính", "Hành động"],
+            "category": "2D"
+        },
+        {
+            "name": "NĂM ĐÊM KINH HOÀNG",
+            "time": "114",
+            "timeStart": "10/10/2023",
+            "description": "Bộ phim kinh dị với năm đêm kinh hoàng đầy ám ảnh.",
+            "genre": ["Kinh dị", "Bí ẩn"],
+            "category": "2D"
+        },
+        {
+            "name": "NGƯỜI VỢ CUỐI CÙNG",
+            "time": "120",
+            "timeStart": "12/10/2023",
+            "description": "Một câu chuyện tình yêu cuối cùng trong thế giới hậu tận thế.",
+            "genre": ["Kịch tính", "Tình cảm"],
+            "category": "2D"
+        },
+        {
+            "name": "THE MARVELS",
+            "time": "132",
+            "timeStart": "14/10/2023",
+            "description": "Siêu anh hùng Marvel quay trở lại với cuộc phiêu lưu mới.",
+            "genre": ["Hành động", "Kịch tính"],
+            "category": "2D"
+        },
+        {
+            "name": "QUỶ LÙN TINH NGHỊCH: ĐỒNG TÂM HIỆP NHẠC",
+            "time": "100",
+            "timeStart": "16/10/2023",
+            "description": "Cuộc phiêu lưu vui nhộn của các quỷ lùn tinh nghịch.",
+            "genre": ["Hoạt hình", "Hài hước"],
+            "category": "2D"
+        },
+        {
+            "name": "CHIẾM ĐOẠT",
+            "time": "115",
+            "timeStart": "18/10/2023",
+            "description": "Cuộc chiến tranh giữa các thế lực thù địch.",
+            "genre": ["Hành động", "Kịch tính"],
+            "category": "2D"
+        },
+        {
+            "name": "DUNE: HÀNH TINH CÁT - P2",
+            "time": "145",
+            "timeStart": "20/10/2023",
+            "description": "Phần tiếp theo của hành trình trên hành tinh cát.",
+            "genre": ["Khoa học viễn tưởng", "Phiêu lưu"],
+            "category": "2D"
+        },
+        {
+            "name": "NGƯỜI MẶT TRỜI",
+            "time": "136",
+            "timeStart": "22/10/2023",
+            "description": "Hành trình cứu vớt thế giới trong tương lai đen tối.",
+            "genre": ["Khoa học viễn tưởng", "Hành động"],
+            "category": "2D"
+        }
+    ]
+}

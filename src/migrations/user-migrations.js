@@ -21,10 +21,7 @@ module.exports = {
       role: {
         type: Sequelize.INTEGER
       },
-      name: {
-        type: Sequelize.STRING
-      },
-      avatar_url: {
+      phonenumber: {
         type: Sequelize.STRING
       },
       createdAt: {

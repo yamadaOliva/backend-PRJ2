@@ -1,0 +1,221 @@
+{
+    "filmShowing": [
+        {
+            "name": "LIVE - PHÁT TRỰC TIẾP",
+            "time": "90",
+            "timeStart": "01/09/2023",
+            "genre": [
+                "Hành động",
+                "Phiêu lưu",
+                "Kinh dị"
+            ],
+            "categorie": [
+                "2D",
+                "Normal",
+                "Normalsound"
+            ],
+            "rating": "8.5",
+            "description": "Sẵn sàng cho những màn cận chiến nghẹt thở từ “anh trọc” Jason Statham, “già gân” Sylvester Stallone cùng dàn sao mới toanh 50 Cent, Megan Fox và Tony Jaa. LIVE - PHÁT TRỰC TIẾP dự kiến khởi chiếu vào tháng 9 năm 2023."
+        },
+        {
+            "name": "BIỆT ĐỘI ĐÁNH THUÊ 4",
+            "time": "120",
+            "timeStart": "02/09/2023",
+            "genre": [
+                "Hành động",
+                "Phiêu lưu"
+            ],
+            "categorie": [
+                "2D",
+                "3D",
+                "IMAX"
+            ],
+            "rating": "7.8",
+            "description": "BIỆT ĐỘI ĐÁNH THUÊ 4 là cuộc phiêu lưu mới với những nhiệm vụ nguy hiểm và một đội ngũ đáng sợ."
+        },
+        {
+            "name": "ÁC QUỶ MA SƠ 2",
+            "time": "105",
+            "timeStart": "05/09/2023",
+            "genre": [
+                "Kinh dị"
+            ],
+            "categorie": [
+                "2D",
+                "Normalsound"
+            ],
+            "rating": "6.9",
+            "description": "ÁC QUỶ MA SƠ 2 là phần tiếp theo của bộ phim kinh dị ÁC QUỶ MA SƠ. Câu chuyện kỳ quái và đáng sợ tiếp tục."
+        },
+        {
+            "name": "NHÂN DUYÊN TIỀN ĐÌNH",
+            "time": "128",
+            "timeStart": "10/09/2023",
+            "genre": [
+                "Tình cảm",
+                "Hài hước"
+            ],
+            "categorie": [
+                "2D",
+                "Normalsound"
+            ],
+            "rating": "7.5",
+            "description": "NHÂN DUYÊN TIỀN ĐÌNH là một câu chuyện tình yêu đáng yêu với sự tham gia của những diễn viên tài năng."
+        },
+        {
+            "name": "ÁN MẠNG Ở VENICE",
+            "time": "118",
+            "timeStart": "15/09/2023",
+            "genre": [
+                "Hành động",
+                "Tâm lý"
+            ],
+            "categorie": [
+                "2D",
+                "3D",
+                "Dolby Atmos"
+            ],
+            "rating": "8.0",
+            "description": "ÁN MẠNG Ở VENICE là một bộ phim hành động và tâm lý đầy kịch tính với bí ẩn và hành trình phá án."
+        },
+        {
+            "name": "HỌA QUỶ",
+            "time": "112",
+            "timeStart": "18/09/2023",
+            "genre": [
+                "Khoa học viễn tưởng",
+                "Phiêu lưu"
+            ],
+            "categorie": [
+                "2D",
+                "3D",
+                "IMAX"
+            ],
+            "rating": "7.6",
+            "description": "HỌA QUỶ là cuộc hành trình ngoạn mục vào thế giới của nghệ thuật và huyền bí."
+        },
+        {
+            "name": "3DCG! SHIN - CẬU BÉ BÚT CHÌ: ĐẠI CHIẾN SIÊU NĂNG LỰC ~ SHUSI BAY",
+            "time": "95",
+            "timeStart": "20/09/2023",
+            "genre": [
+                "Hài hước",
+                "Phiêu lưu"
+            ],
+            "categorie": [
+                "2D",
+                "Normalsound"
+            ],
+            "rating": "7.2",
+            "description": "CẬU BÉ BÚT CHÌ trở lại với cuộc phiêu lưu mới đầy hấp dẫn. 3DCG! SHIN - CẬU BÉ BÚT CHÌ: ĐẠI CHIẾN SIÊU NĂNG LỰC ~ SHUSI BAY hứa hẹn sẽ mang lại những tiếng cười sảng khoái."
+        },
+        {
+            "name": "ĐƠN HÀNG TỪ SÁT NHÂN",
+            "time": "110",
+            "timeStart": "22/09/2023",
+            "genre": [
+                "Kinh dị",
+                "Hành động"
+            ],
+            "categorie": [
+                "2D",
+                "3D",
+                "Dolby Atmos"
+            ],
+            "rating": "6.7",
+            "description": "ĐƠN HÀNG TỪ SÁT NHÂN là câu chuyện căng thẳng và kịch tính về một loạt vụ án mạng bí ẩn."
+        },
+        {
+            "name": "ĐỊA ĐÀNG SỤP ĐỔ",
+            "time": "125",
+            "timeStart": "25/09/2023",
+            "genre": [
+                "Khoa học viễn tưởng",
+                "Hành động"
+            ],
+            "categorie": [
+                "2D",
+                "Normalsound"
+            ],
+            "rating": "7.1",
+            "description": "ĐỊA ĐÀNG SỤP ĐỔ là cuộc chiến đầy mạo hiểm và kịch tính để cứu trái đất khỏi sự tàn phá của thiên tai."
+        },
+        {
+            "name": "ÁNH DƯƠNG SAU HOÀNG HÔN",
+            "time": "135",
+            "timeStart": "28/09/2023",
+            "genre": [
+                "Tâm lý",
+                "Hài hước"
+            ],
+            "categorie": [
+                "2D",
+                "Normalsound"
+            ],
+            "rating": "7.4",
+            "description": "ÁNH DƯƠNG SAU HOÀNG HÔN là một bản làm lại đầy sáng tạo với câu chuyện về cuộc sống và tình yêu."
+        },
+        {
+            "name": "Ổ",
+            "time": "118",
+            "timeStart": "02/10/2023",
+            "genre": [
+                "Kinh dị",
+                "Tâm lý"
+            ],
+            "categorie": [
+                "2D",
+                "Normalsound"
+            ],
+            "rating": "6.8",
+            "description": "Ổ là một bộ phim kinh dị với những tình tiết bí ẩn và ám ảnh."
+        },
+        {
+            "name": "CÁNH CỤT & BIỆT ĐỘI RỪNG XANH QUẬY BANH THẾ GIỚI",
+            "time": "98",
+            "timeStart": "05/10/2023",
+            "genre": [
+                "Hành động",
+                "Hài hước"
+            ],
+            "categorie": [
+                "2D",
+                "Normalsound"
+            ],
+            "rating": "7.0",
+            "description": "CÁNH CỤT & BIỆT ĐỘI RỪNG XANH QUẬY BANH THẾ GIỚI là một cuộc phiêu lưu đầy hài hước với sự tham gia của loài chim CÁNH CỤT đáng yêu."
+        },
+        {
+            "name": "KẺ ẨN DANH",
+            "time": "115",
+            "timeStart": "10/10/2023",
+            "genre": [
+                "Kịch tính",
+                "Tâm lý"
+            ],
+            "categorie": [
+                "2D",
+                "3D",
+                "IMAX"
+            ],
+            "rating": "7.7",
+            "description": "KẺ ẨN DANH là một bộ phim kịch tính với nhiều bí ẩn và tình tiết đầy căng thẳng."
+        },
+        {
+            "name": "TRỪNG PHẠT",
+            "time": "120",
+            "timeStart": "15/10/2023",
+            "genre": [
+                "Hành động",
+                "Tâm lý"
+            ],
+            "categorie": [
+                "2D",
+                "3D",
+                "Dolby Atmos"
+            ],
+            "rating": "8.0",
+            "description": "TRỪNG PHẠT là một cuộc hành trình đầy máu chảy và trả thù đầy kịch tính."
+        }
+    ]
+}
