@@ -39,6 +39,7 @@ module.exports = {
           rating: film.rating,
           description: film.description,
           imgUrl: film.imgUrl,
+          age: film.age,
         };
       }),
       {}

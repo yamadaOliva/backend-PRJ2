@@ -10,7 +10,8 @@
                 "Phiêu lưu"
             ],
             "category": "2D",
-            "imgUrl" : "https://media.lottecinemavn.com/Media/MovieFile/MovieImg/202309/11222_103_100002.jpg"
+            "imgUrl" : "https://media.lottecinemavn.com/Media/MovieFile/MovieImg/202309/11222_103_100002.jpg",
+            "age" : 0
         },
         {
             "name": "NGƯỜI DƠI BẮT ĐẦU",
@@ -22,7 +23,8 @@
                 "Phiêu lưu"
             ],
             "category": "2D",
-            "imgUrl" : "https://media.lottecinemavn.com/Media/MovieFile/MovieImg/202309/11258_103_100001.jpg"
+            "imgUrl" : "https://media.lottecinemavn.com/Media/MovieFile/MovieImg/202309/11258_103_100001.jpg",
+            "age" : 16
         },
         {
             "name": "THE IU CONCERT: GOLDEN HOUR - THỜI KHẮC QUÝ GIÁ",
@@ -34,7 +36,8 @@
                 "Trình diễn"
             ],
             "category": "2D",
-            "imgUrl" : "https://media.lottecinemavn.com/Media/MovieFile/MovieImg/202309/11246_103_100001.jpg"
+            "imgUrl" : "https://media.lottecinemavn.com/Media/MovieFile/MovieImg/202309/11246_103_100001.jpg",
+            "age" : 18
         },
         {
             "name": "MUÔN KIẾP NHÂN DUYÊN",
@@ -46,7 +49,8 @@
                 "Hài hước"
             ],
             "category": "2D",
-            "imgUrl" : "https://media.lottecinemavn.com/Media/MovieFile/MovieImg/202309/11257_103_100001.jpg"
+            "imgUrl" : "https://media.lottecinemavn.com/Media/MovieFile/MovieImg/202309/11257_103_100001.jpg",
+            "age" : 16
         },
         {
             "name": "THẢM HỌA MƯA AXIT",
@@ -58,7 +62,8 @@
                 "Hành động"
             ],
             "category": "2D",
-            "imgUrl" : "https://media.lottecinemavn.com/Media/MovieFile/MovieImg/202309/11263_103_100001.jpg"
+            "imgUrl" : "https://media.lottecinemavn.com/Media/MovieFile/MovieImg/202309/11263_103_100001.jpg",
+            "age" : 16
         },
         {
             "name": "VŨ ĐIỆU QUỶ DỮ",
@@ -70,7 +75,8 @@
                 "Hành động"
             ],
             "category": "2D",
-            "imgUrl" : "https://media.lottecinemavn.com/Media/MovieFile/MovieImg/202309/11247_103_100002.jpg"
+            "imgUrl" : "https://media.lottecinemavn.com/Media/MovieFile/MovieImg/202309/11247_103_100002.jpg",
+            "age" : 13
         },
         {
             "name": "MANSUANG: KỲ ÁN NHÀ HÁT THIÊN ĐƯỜNG",
@@ -82,7 +88,8 @@
                 "Bí ẩn"
             ],
             "category": "2D",
-            "imgUrl" : "https://media.lottecinemavn.com/Media/MovieFile/MovieImg/202309/11255_103_100001.jpg"
+            "imgUrl" : "https://media.lottecinemavn.com/Media/MovieFile/MovieImg/202309/11255_103_100001.jpg",
+            "age" : 13
         },
         {
             "name": "KẺ KIẾN TẠO",
@@ -94,7 +101,8 @@
                 "Kịch tính"
             ],
             "category": "2D",
-            "imgUrl" : "https://media.lottecinemavn.com/Media/MovieFile/MovieImg/202308/11238_103_100001.jpg"
+            "imgUrl" : "https://media.lottecinemavn.com/Media/MovieFile/MovieImg/202308/11238_103_100001.jpg",
+            "age" : 13
         },
         {
             "name": "AI YÊU AI",
@@ -106,7 +114,8 @@
                 "Hài hước"
             ],
             "category": "2D",
-            "imgUrl" : "https://media.lottecinemavn.com/Media/MovieFile/MovieImg/202309/11248_103_100001.jpg"
+            "imgUrl" : "https://media.lottecinemavn.com/Media/MovieFile/MovieImg/202309/11248_103_100001.jpg",
+            "age" : 16
         },
         {
             "name": "GIAO LỘ 8675",
@@ -118,7 +127,8 @@
                 "Kinh dị"
             ],
             "category": "2D",
-            "imgUrl" : "https://media.lottecinemavn.com/Media/MovieFile/MovieImg/202308/11237_103_100002.jpg"
+            "imgUrl" : "https://media.lottecinemavn.com/Media/MovieFile/MovieImg/202308/11237_103_100002.jpg",
+            "age" : 18
         },
         {
             "name": "QUỶ ÁM: TÍN ĐỒ",
@@ -130,7 +140,8 @@
                 "Bí ẩn"
             ],
             "category": "2D",
-            "imgUrl" : "https://media.lottecinemavn.com/Media/MovieFile/MovieImg/202308/11216_103_100002.jpg"
+            "imgUrl" : "https://media.lottecinemavn.com/Media/MovieFile/MovieImg/202308/11216_103_100002.jpg",
+            "age" : 18
         },
         {
             "name": "ĐẤT RỪNG PHƯƠNG NAM",
@@ -141,7 +152,9 @@
                 "Kịch tính",
                 "Hành động"
             ],
-            "category": "2D"
+            "category": "2D",
+            "imgUrl" : "https://media.lottecinemavn.com/Media/MovieFile/MovieImg/202309/11259_103_100001.jpg",
+            "age" : 16
         },
         {
             "name": "VẦNG TRĂNG MÁU",
@@ -153,7 +166,8 @@
                 "Hành động"
             ],
             "category": "2D",
-            "imgUrl" : "https://media.lottecinemavn.com/Media/MovieFile/MovieImg/202309/11259_103_100001.jpg"
+            "imgUrl" : "https://media.lottecinemavn.com/Media/MovieFile/MovieImg/202309/11259_103_100001.jpg",
+            "age" : 13
         },
         {
             "name": "NĂM ĐÊM KINH HOÀNG",
@@ -165,7 +179,8 @@
                 "Bí ẩn"
             ],
             "category": "2D",
-            "imgUrl" : "https://media.lottecinemavn.com/Media/MovieFile/MovieImg/202308/11243_103_100001.jpg"
+            "imgUrl" : "https://media.lottecinemavn.com/Media/MovieFile/MovieImg/202308/11243_103_100001.jpg",
+            "age" : 0
         },
         {
             "name": "NGƯỜI VỢ CUỐI CÙNG",
@@ -177,7 +192,8 @@
                 "Tình cảm"
             ],
             "category": "2D",
-            "imgUrl" : "https://media.lottecinemavn.com/Media/MovieFile/MovieImg/202307/11111_103_100003.jpg"
+            "imgUrl" : "https://media.lottecinemavn.com/Media/MovieFile/MovieImg/202307/11111_103_100003.jpg",
+            "age" : 16
         },
         {
             "name": "THE MARVELS",
@@ -189,7 +205,8 @@
                 "Kịch tính"
             ],
             "category": "2D",
-            "imgUrl" : "https://media.lottecinemavn.com/Media/MovieFile/MovieImg/202303/10772_103_100002.jpg"
+            "imgUrl" : "https://media.lottecinemavn.com/Media/MovieFile/MovieImg/202303/10772_103_100002.jpg",
+            "age" : 13
         },
         {
             "name": "QUỶ LÙN TINH NGHỊCH: ĐỒNG TÂM HIỆP NHẠC",
@@ -201,7 +218,8 @@
                 "Hài hước"
             ],
             "category": "2D",
-            "imgUrl" : "https://media.lottecinemavn.com/Media/MovieFile/MovieImg/202303/11130_103_100001.jpg"
+            "imgUrl" : "https://media.lottecinemavn.com/Media/MovieFile/MovieImg/202303/11130_103_100001.jpg",
+            "age" : 0
         },
         {
             "name": "CHIẾM ĐOẠT",
@@ -213,7 +231,8 @@
                 "Kịch tính"
             ],
             "category": "2D",
-            "imgUrl" : "https://media.lottecinemavn.com/Media/MovieFile/MovieImg/202306/11191_103_100001.jpg"
+            "imgUrl" : "https://media.lottecinemavn.com/Media/MovieFile/MovieImg/202306/11191_103_100001.jpg",
+            "age" : 13
         },
         {
             "name": "DUNE: HÀNH TINH CÁT - P2",
@@ -225,7 +244,8 @@
                 "Phiêu lưu"
             ],
             "category": "2D",
-            "imgUrl" : "https://media.lottecinemavn.com/Media/MovieFile/MovieImg/202305/11161_103_100001.jpg"
+            "imgUrl" : "https://media.lottecinemavn.com/Media/MovieFile/MovieImg/202305/11161_103_100001.jpg",
+            "age" : 13
         },
         {
             "name": "NGƯỜI MẶT TRỜI",
@@ -237,7 +257,8 @@
                 "Hành động"
             ],
             "category": "2D",
-            "imgUrl" : "https://media.lottecinemavn.com/Media/MovieFile/MovieImg/202309/11054_103_100002.jpg"
+            "imgUrl" : "https://media.lottecinemavn.com/Media/MovieFile/MovieImg/202309/11054_103_100002.jpg",
+            "age" : 16
         }
     ]
 }
