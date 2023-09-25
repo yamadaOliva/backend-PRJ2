@@ -1,6 +1,5 @@
 import bcrypt from "bcryptjs";
 import db from "../models/index.js";
-import JWTmiddleware from "../middleware/JWTmiddleware.js";
 //hash password
 const salt = bcrypt.genSaltSync(10);
 const hashPassword = (password) => {
@@ -31,9 +30,9 @@ const registerService = async (user) => {
       await db.User.create({
         email: user.email,
         password: hashPassword(user.password),
-        username: user.username,
+        username: user.name,
         role: 2,
-        phonenumber: user.phonenumber
+        phonenumber: user.phonenumber,
       });
       return {
         EC: 200,
@@ -47,39 +46,44 @@ const registerService = async (user) => {
 };
 
 const loginService = async (user) => {
-  const userIsExists = await checkUserExists(user.email);
-  if (!userIsExists) {
-    return {
-      EC: 400,
-      EM: "Email is not exists",
-      DT: "",
-    };
-  } else {
-    const userTemp = await db.User.findOne({
-      where: {
-        email: user.email,
-      },
-    });
-
-    const isMatch = bcrypt.compareSync(user.password, userTemp.password);
-    if (!isMatch) {
+  console.log("service==>", user);
+  try {
+    const userIsExists = await checkUserExists(user.email);
+    if (!userIsExists) {
       return {
         EC: 400,
-        EM: "Password is not correct",
+        EM: "Email is not exists",
         DT: "",
       };
     } else {
-      return {
-        EC: 200,
-        EM: "Login successfully",
-        DT: {
-          email: userTemp.email,
-          username: userTemp.username,
-          role: userTemp.role,
-          phone: userTemp.phonenumber
+      const userTemp = await db.User.findOne({
+        where: {
+          email: user.email,
         },
-      };
+      });
+
+      const isMatch = bcrypt.compareSync(user.password, userTemp.password);
+      if (!isMatch) {
+        return {
+          EC: 400,
+          EM: "Password is not correct",
+          DT: "",
+        };
+      } else {
+        return {
+          EC: 200,
+          EM: "Login successfully",
+          DT: {
+            email: userTemp.email,
+            username: userTemp.username,
+            role: userTemp.role,
+            phone: userTemp.phonenumber,
+          },
+        };
+      }
     }
+  } catch (error) {
+    console.log(error);
   }
 };
 

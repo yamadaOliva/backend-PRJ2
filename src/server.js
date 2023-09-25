@@ -4,7 +4,6 @@ import initAPI from "./routes/api.js";
 import configCors from "./config/cors.js";
 import connectDB from "./config/connectDB.js";
 import bodyParser from "body-parser";
-import JWTmiddleware from "./middleware/JWTmiddleware.js";
 require("dotenv").config();
 
 const app = express();
@@ -17,7 +16,6 @@ connectDB();
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cookieParser());
-console.log("JWTmiddleware", JWTmiddleware.createToken());
 initAPI(app);
 app.listen(port, () => {
     console.log(`Server is running on port ${port}.`);
