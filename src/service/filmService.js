@@ -8,6 +8,9 @@ const getListShowing = async (limit, page) => {
         {
           model: db.Screen,
           atrributes: ["name"],
+          through: {
+            attributes: [],
+          },
         },
       ],
     });
