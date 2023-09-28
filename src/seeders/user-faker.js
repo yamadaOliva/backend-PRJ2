@@ -49,6 +49,7 @@ module.exports = {
           showingId: i,
           rating: getRan(),
           comment: faker.lorem.sentence(),
+          createdAt: new Date(),
         });
       }
       arraySumRating.push((sum / 100).toFixed(1));

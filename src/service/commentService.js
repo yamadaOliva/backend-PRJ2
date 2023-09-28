@@ -7,6 +7,12 @@ const getListComment = async (limit, page, idShowing) => {
       where: {
         showingId: idShowing,
       },
+      include: [
+        {
+          model: db.User,
+          attributes: ["id", "username"],
+        },
+      ],
     });
     return {
       EC: 200,
@@ -35,12 +41,14 @@ const findCommetById = async (id) => {
 const createComment = async (data) => {
   try {
     const checkComment = await findCommetById(data?.id);
-    if (checkComment.DT)
+    if (checkComment.DT) {
+      await updateComment(data);
       return {
         EC: 400,
         EM: "Comment already exists",
         DT: null,
       };
+    }
     const comment = await db.Comment.create(data);
     return {
       EC: 200,
@@ -55,7 +63,7 @@ const updateComment = async (data) => {
   try {
     const comment = await db.Comment.update(data, {
       where: {
-        id : data.id,
+        id: data.id,
       },
     });
     return {
