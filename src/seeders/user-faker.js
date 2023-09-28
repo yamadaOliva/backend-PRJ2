@@ -11,6 +11,7 @@ module.exports = {
      *   isBetaMember: false
      * }], {});
      */
+    const { faker } = require("@faker-js/faker");
     let userArray = [
       {
         role: 1,
@@ -22,11 +23,44 @@ module.exports = {
         status: 1,
       },
     ];
+    for (let i = 1; i <= 100; i++) {
+      userArray.push({
+        role: 0,
+        username: `user${i}`,
+        phonenumber: null,
+        email: `user${i}@gmail.com`,
+        password:
+          "$2a$10$TB0ZOdUaSdWCJjXY5GnfquMEBw6WuBDaN5rRyGDIj4M6maqD51nES",
+        status: 1,
+      });
+    }
+    let commentArray = [];
+    let arraySumRating = [];
+    for (let i = 1; i <= 14; i++) {
+      let sum = 0;
+      for (let j = 1; j <= 100; j++) {
+        const getRan = () => {
+          let ran = Math.floor(Math.random() * 10) + 1;
+          sum += ran;
+          return ran;
+        };
+        commentArray.push({
+          userId: j,
+          showingId: i,
+          rating: getRan(),
+          comment: faker.lorem.sentence(),
+        });
+      }
+      arraySumRating.push((sum / 100).toFixed(1));
+    }
+    await queryInterface.bulkInsert("Comment", commentArray, {});
     await queryInterface.bulkInsert("User", userArray, {});
     //import showing.json
     const fs = require("fs");
     const data = fs.readFileSync("./src/seeders/showing.json", "utf8");
     const showing = JSON.parse(data);
+    let i = 0;
+    console.log(arraySumRating);
     await queryInterface.bulkInsert(
       "Showing",
       showing.filmShowing.map((film) => {
@@ -36,7 +70,7 @@ module.exports = {
           timeStart: film.timeStart,
           genre: film.genre.join(),
           category: film.category.join(),
-          rating: film.rating,
+          rating: arraySumRating[i++],
           description: film.description,
           imgUrl: film.imgUrl,
           age: film.age,
@@ -97,9 +131,9 @@ module.exports = {
     ];
     const getrandom2oftimeListBase = () => {
       let timeList = [...timeListBase];
-      let time1 = timeList[Math.floor(Math.random() * timeList.length)]
+      let time1 = timeList[Math.floor(Math.random() * timeList.length)];
       timeList = timeList.filter((item) => item !== time1);
-      let time2 = timeList[Math.floor(Math.random() * timeList.length)]
+      let time2 = timeList[Math.floor(Math.random() * timeList.length)];
       return [time1, time2].join();
     };
 
@@ -110,7 +144,6 @@ module.exports = {
         timeList: getrandom2oftimeListBase(),
       });
     }
-    console.log(showingScreenArray);
     await queryInterface.bulkInsert("ScreenShowing", showingScreenArray, {});
   },
 

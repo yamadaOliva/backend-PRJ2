@@ -1,6 +1,7 @@
 import express from "express";
 import authController from "../controller/authController.js";
 import filmController from "../controller/filmController.js";
+import commentController from "../controller/commentController.js";
 const router = express.Router();
 
 const initAPI = (app) => {
@@ -13,6 +14,9 @@ const initAPI = (app) => {
   //fimlcontroller
   router.get("/showing", filmController.getListShowingController);
   router.get("/upcoming", filmController.getListUpcomingController);
+  //commentcontroller
+  router.post("/comment", commentController.addCommentController);
+  router.get("/comment", commentController.getListCommentController);
   return app.use("/api/v1", router);
 };
 
