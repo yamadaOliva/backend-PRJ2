@@ -13,6 +13,7 @@ const getListComment = async (limit, page, idShowing) => {
           attributes: ["id", "username"],
         },
       ],
+      order: [["createdAt", "DESC"]],
     });
     return {
       EC: 200,
@@ -38,18 +39,52 @@ const findCommetById = async (id) => {
     console.log(error);
   }
 };
+const reCacularRating = async (idShowing, newRating) => {
+  const avgRating = await db.Showing.findOne({
+    attributes: ["rating"],
+    where: {
+      id: idShowing,
+    },
+  });
+  const { rows, count } = await db.Comment.findAndCountAll({
+    where: {
+      showingId: idShowing,
+    },
+  });
+  db.Showing.update(
+    {
+      rating: (
+        (avgRating.rating * (count - 1) + newRating) /
+        (count + 1)
+      ).toFixed(1),
+    },
+    {
+      where: {
+        id: idShowing,
+      },
+    }
+  );
+};
 const createComment = async (data) => {
+  console.log("data==>", data);
   try {
-    const checkComment = await findCommetById(data?.id);
-    if (checkComment.DT) {
+    const checkComment = await db.Comment.findOne({
+      where: {
+        userId: data.userId,
+        showingId: data.showingId,
+      },
+    });
+    if (checkComment) {
       await updateComment(data);
+      await reCacularRating(data.showingId, data.rating);
       return {
-        EC: 400,
+        EC: 200,
         EM: "Comment already exists",
         DT: null,
       };
     }
     const comment = await db.Comment.create(data);
+    await reCacularRating(data.showingId, data.rating);
     return {
       EC: 200,
       EM: "Create comment successfully",
@@ -63,14 +98,10 @@ const updateComment = async (data) => {
   try {
     const comment = await db.Comment.update(data, {
       where: {
-        id: data.id,
+        showingId: data.showingId,
+        userId: data.userId,
       },
     });
-    return {
-      EC: 200,
-      EM: "Update comment successfully",
-      DT: comment,
-    };
   } catch (error) {
     console.log(error);
   }

@@ -1,0 +1,76 @@
+{
+    "sale": [
+        {
+            "icon": "https://media.lottecinemavn.com/Media/Event/9c929ff6a92e4d4faac1109686a0357a.jpg",
+            "imgUrl": "https://media.lottecinemavn.com/Media/Event/47de53fb29584252b5c9155310dbbf6f.jpg",
+            "title": "GOLDEN DAY: MUA 1 VÉ – TẶNG 1 VÉ FREE",
+            "type": "1"
+        },
+        {
+            "icon": "https://media.lottecinemavn.com/Media/Event/2b9142d114b34dfd906b0b7c57f08ac8.png",
+            "imgUrl": "https://media.lottecinemavn.com/Media/Event/3ea52cdfafb4424cbfdf75d3888ed918.jpg",
+            "title": "MUA COMBO BẮP NƯỚC – TẶNG 01 BÁNH BOUCHEE",
+            "type": "1"
+        },
+        {
+            "icon": "https://media.lottecinemavn.com/Media/Event/fe3715487aa14bfba47ab479daf3a897.png",
+            "imgUrl": "https://media.lottecinemavn.com/Media/Event/6c12903fc1b44e05869e5c88b3ef05f5.png",
+            "title": "NĂNG ĐỘNG VÀ NHIỆT HUYẾT VỚI COMBO U22 DÀNH CHO GEN Z",
+            "type": "1"
+        },
+        {
+            "icon": "https://media.lottecinemavn.com/Media/Event/bf824ea316674e9ead89cf6dc43300cf.png",
+            "imgUrl": "https://media.lottecinemavn.com/Media/Event/328d78b66f54434ead159150bbc510eb.jpg",
+            "title": "BIG SMILE DAY – THỨ HAI TUẦN THỨ BA MỖI THÁNG",
+            "type": "1"
+        },
+        {
+            "icon": "https://media.lottecinemavn.com/Media/Event/a3362817494a460d95b0703561ab7efa.jpg",
+            "imgUrl": "https://media.lottecinemavn.com/Media/Event/471aea763cea47edbc2ca02417a2f13c.jpg",
+            "title": "🙌 BIỆT ĐỘI SIÊU CÚN MANG QUÀ TẶNG ĐẾN CHO CÁC BÉ",
+            "type": "2"
+        },
+        {
+            "icon": "https://media.lottecinemavn.com/Media/Event/db0123215afd4d44b25dc8293af1bc57.jpg",
+            "imgUrl": "https://media.lottecinemavn.com/Media/Event/691c946901474175b08f768129fe30ee.jpg",
+            "title": "COMBO PHIM “ÁO GIÁP XANH” BẮT MẮT – BLUE BEETLE HIỆN ĐÃ CÓ MẶT TẠI RẠP LOTTE CINEMA !!!",
+            "type": "2"
+        },
+        {
+            "icon": "https://media.lottecinemavn.com/Media/Event/9ee786f6703f42f791e4d3307cfba85f.png",
+            "imgUrl": "https://media.lottecinemavn.com/Media/Event/b3999e8433f04145b600a51fc9a3d7e4.jpg",
+            "title": "PHÒNG CHIẾU CINECOMFORT – LẠC VÀO THẾ GIỚI ĐIỆN ẢNH TRÊN GHẾ SOFA CAO CẤP",
+            "type": "2"
+        },
+        {
+            "icon": "https://media.lottecinemavn.com/Media/Event/bfb3b508d6874890b416ac17f5a24562.png",
+            "imgUrl": "https://media.lottecinemavn.com/Media/Event/bf8e7e1efbd043c782e2cd66c9998ed6.jpg",
+            "title": "PHÒNG CHIẾU CHARLOTTE - THƯỞNG THỨC ĐIỆN ẢNH VỚI PHONG CÁCH SANG TRỌNG và ĐẦY TÍNH RIÊNG BIỆT",
+            "type": "2"
+        },
+        {
+            "icon": "https://media.lottecinemavn.com/Media/Event/6a048b573f904e2db2af35d191fa47eb.png",
+            "imgUrl": "https://media.lottecinemavn.com/Media/Event/a4e8b294b9014bdcb6b8c417f946b9c2.jpg",
+            "title": "Ưu đãi độc quyền rạp Lotte West Lake: Quét mã, nhận vé 1K vào thứ 6 hàng tuần!",
+            "type": "3"
+        },
+        {
+            "icon": "https://media.lottecinemavn.com/Media/Event/55827647eb4a4c58bdd2965d1f5945a6.jpg",
+            "imgUrl": "https://media.lottecinemavn.com/Media/Event/af414ad0cac541c883347cda1909abd8.jpg",
+            "title": "[KARAMUCHO X GS25] GHÉ GS25 SĂN 4000 VÉ LOTTE CINEMA MIỄN PHÍ",
+            "type": "3"
+        },
+        {
+            "icon": "https://media.lottecinemavn.com/Media/Event/5b16d48551af480282a81eeb77c4313d.jpg",
+            "imgUrl": "https://media.lottecinemavn.com/Media/Event/48b16d08d18f4b58988473426a0e18c2.jpg",
+            "title": "DEAL BÙNG NỔ CÙNG GALAXY PLAY VÀ LOTTE CINEMA - CHỈ THÊM 10K XEM PHIM THẢ GA",
+            "type": "3"
+        },
+        {
+            "icon": "https://media.lottecinemavn.com/Media/Event/5b16d48551af480282a81eeb77c4313d.jpg",
+            "imgUrl": "https://media.lottecinemavn.com/Media/Event/48b16d08d18f4b58988473426a0e18c2.jpg",
+            "title": "CHỈ 84K/VÉ KHI ĐẶT TRÊN ZALOPAY",
+            "type": "3"
+        }
+    ]
+}

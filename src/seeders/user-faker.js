@@ -23,7 +23,7 @@ module.exports = {
         status: 1,
       },
     ];
-    for (let i = 1; i <= 100; i++) {
+    for (let i = 1; i <= 101; i++) {
       userArray.push({
         role: 0,
         username: `user${i}`,
@@ -146,6 +146,24 @@ module.exports = {
       });
     }
     await queryInterface.bulkInsert("ScreenShowing", showingScreenArray, {});
+    let ticketArray = [];
+    const sale = fs.readFileSync("./src/seeders/sale.json", "utf8");
+    ticketArray = JSON.parse(sale).sale;
+    await queryInterface.bulkInsert(
+      "Sale",
+      ticketArray.map((item) => {
+        return {
+          icon: item.icon,
+          title: item.title,
+          description: faker.lorem.paragraph(),
+          imgUrl: item.imgUrl,
+          type: item.type,
+          timeStart: faker.date.past(),
+          timeEnd: faker.date.future(),
+        };
+      }),
+      {}
+    );
   },
 
   down: async (queryInterface, Sequelize) => {
