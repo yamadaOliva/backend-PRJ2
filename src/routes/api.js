@@ -3,6 +3,8 @@ import authController from "../controller/authController.js";
 import filmController from "../controller/filmController.js";
 import commentController from "../controller/commentController.js";
 import saleController from "../controller/saleController.js";
+import adminController from "../controller/adminController.js";
+import giftController from "../controller/giftController.js";
 const router = express.Router();
 
 const initAPI = (app) => {
@@ -21,6 +23,12 @@ const initAPI = (app) => {
   //salecontroller
   router.get("/ticket", saleController.getAllTicket);
   //admin 
+  router.get("/user", adminController.getUserListController);
+  router.get("/user/:id", adminController.findUserByIdController);
+  router.put("/user/:id", adminController.blockUserController);
+  router.post("/user/:id", adminController.deleteUserController);
+  //gift
+  router.get("/gift", giftController.getAllGiftController);
   return app.use("/api/v1", router);
 };
 

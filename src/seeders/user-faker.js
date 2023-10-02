@@ -164,8 +164,21 @@ module.exports = {
       }),
       {}
     );
+    const gift = fs.readFileSync("./src/seeders/gift.json", "utf8");
+    ticketArray = JSON.parse(gift).gifts;
+    await queryInterface.bulkInsert(
+      "Gift",
+      ticketArray.map((item) => {
+        return {
+          name : item.name,
+          description: faker.lorem.paragraph(),
+          imgUrl: item.imgUrl,
+          price: item.price,
+        };
+      }),
+      {}
+    );
   },
-
   down: async (queryInterface, Sequelize) => {
     /**
      * Add commands to revert seed here.

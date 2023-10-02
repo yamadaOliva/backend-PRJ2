@@ -83,3 +83,9 @@ const deleteUser = async (id) => {
     console.log(error);
   }
 };
+module.exports = {
+  findUserById,
+  getUserList,
+  blockUser,
+  deleteUser,
+};
