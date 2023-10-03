@@ -1,7 +1,7 @@
 import Sequelize from 'sequelize';
 
-const sequelize = new  Sequelize('backendtest','root',null,{
-    host: 'localhost',
+const sequelize = new  Sequelize('freedb_backendtest','freedb_vanhroot',"%C9FWbyfjd28x!!",{
+    host: 'sql.freedb.tech',
     dialect: 'mysql',
 })
 

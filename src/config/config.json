@@ -1,9 +1,9 @@
 {
   "development": {
-    "username": "root",
-    "password": null,
-    "database": "backendtest",
-    "host": "127.0.0.1",
+    "username": "freedb_vanhroot",
+    "password": "%C9FWbyfjd28x!!",
+    "database": "freedb_backendtest",
+    "host": "sql.freedb.tech",
     "dialect": "mysql",
     "define": {
       "freezeTableName": true
