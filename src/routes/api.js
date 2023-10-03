@@ -5,6 +5,7 @@ import commentController from "../controller/commentController.js";
 import saleController from "../controller/saleController.js";
 import adminController from "../controller/adminController.js";
 import giftController from "../controller/giftController.js";
+import transactionController from "../controller/transactionController.js";
 const router = express.Router();
 
 const initAPI = (app) => {
@@ -29,6 +30,9 @@ const initAPI = (app) => {
   router.post("/user/:id", adminController.deleteUserController);
   //gift
   router.get("/gift", giftController.getAllGiftController);
+  //transaction
+  router.post("/transaction", transactionController.createTransactionController);
+  router.get("/transaction", transactionController.getAllTransactionController);
   return app.use("/api/v1", router);
 };
 

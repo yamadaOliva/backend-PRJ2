@@ -178,6 +178,19 @@ module.exports = {
       }),
       {}
     );
+    let transactionArray = [];
+    for(let i = 1; i<=10;++i){
+        transactionArray.push({
+            name: `transaction${i}`,
+            idUser: 1,
+            quantity: 1,
+            price: 100000,
+            totalPrice: 100000,
+            seat: "A1",
+            screen: "screen1",
+        })
+    }
+    await queryInterface.bulkInsert("Transaction", transactionArray, {});
   },
   down: async (queryInterface, Sequelize) => {
     /**
