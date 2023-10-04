@@ -188,6 +188,7 @@ module.exports = {
             totalPrice: 100000,
             seat: "A1",
             screen: "screen1",
+            createdAt: new Date(),
         })
     }
     await queryInterface.bulkInsert("Transaction", transactionArray, {});
