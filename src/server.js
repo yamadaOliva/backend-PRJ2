@@ -8,11 +8,11 @@ require("dotenv").config();
 
 const app = express();
 const port = process.env.PORT || 8080;
-
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: true }));
 configCors(app);
 connectDB();
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
+
 app.use(cookieParser());
 initAPI(app);
 app.listen(port, () => {
