@@ -10,6 +10,7 @@ const createTransaction = async (transaction) => {
       totalPrice: transaction.totalPrice,
       seat: transaction.seat,
       screen: transaction.screen,
+      createdAt: new Date(),
     });
     return {
       EC: 200,
