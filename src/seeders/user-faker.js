@@ -170,7 +170,7 @@ module.exports = {
       "Gift",
       ticketArray.map((item) => {
         return {
-          name : item.name,
+          name: item.name,
           description: faker.lorem.paragraph(),
           imgUrl: item.imgUrl,
           price: item.price,
@@ -179,17 +179,19 @@ module.exports = {
       {}
     );
     let transactionArray = [];
-    for(let i = 1; i<=10;++i){
-        transactionArray.push({
-            name: `transaction${i}`,
-            idUser: 1,
-            quantity: 1,
-            price: 100000,
-            totalPrice: 100000,
-            seat: "A1",
-            screen: "screen1",
-            createdAt: new Date(),
-        })
+    for (let i = 1; i <= 10; ++i) {
+      transactionArray.push({
+        name: `transaction${i}`,
+        idUser: 1,
+        imgUrl:
+          "https://media.lottecinemavn.com/Media/WebAdmin/d4299fe3d75641b2ad9b2c945543cb3e.png",
+        quantity: 1,
+        price: 100000,
+        totalPrice: 100000,
+        seat: "A1",
+        screen: "screen1",
+        createdAt: new Date(),
+      });
     }
     await queryInterface.bulkInsert("Transaction", transactionArray, {});
   },

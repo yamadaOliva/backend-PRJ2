@@ -4,11 +4,13 @@ const createTransaction = async (transaction) => {
     const transactionCreated = await db.Transaction.create({
       name: transaction.name,
       idUser: transaction.idUser,
+      imgUrl: transaction.imgUrl,
       quantity: transaction.quantity,
       price: transaction.price,
       totalPrice: transaction.totalPrice,
       seat: transaction.seat,
       screen: transaction.screen,
+      createdAt: new Date(),
     });
     return {
       EC: 200,
