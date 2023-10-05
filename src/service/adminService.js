@@ -20,6 +20,7 @@ const getUserList = async (limit, page) => {
         role: 0,
       },
     });
+    console.log("=>>", rows);
     return {
       EC: 200,
       EM: "Get list user successfully",
@@ -27,6 +28,16 @@ const getUserList = async (limit, page) => {
         count,
         rows,
       },
+    };
+  } catch (error) {}
+};
+const getAllUser = async () => {
+  try {
+    const users = await db.User.findAll({});
+    return {
+      EC: 200,
+      EM: "Get list user successfully",
+      DT: users,
     };
   } catch (error) {}
 };
@@ -88,4 +99,5 @@ module.exports = {
   getUserList,
   blockUser,
   deleteUser,
+  getAllUser,
 };

@@ -5,6 +5,7 @@ const registerController = async (req, res) => {
     console.log(req.body);
     try {
       const result = await registerService(user);
+      console.log(result);
       return res.status(200).json(result);
     } catch (error) {
       console.log(error);

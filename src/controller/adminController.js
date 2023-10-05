@@ -3,6 +3,7 @@ import {
   getUserList,
   blockUser,
   deleteUser,
+  getAllUser,
 } from "../service/adminService.js";
 const findUserByIdController = async (req, res) => {
   const id = req.params.id;
@@ -15,8 +16,9 @@ const findUserByIdController = async (req, res) => {
   return res.status(result.EC).json(result);
 };
 const getUserListController = async (req, res) => {
-  const result = await getUserList();
-  return res.status(result.EC).json(result);
+  const result = await getAllUser();
+  console.log(result);
+  return res.status(200).json(result);
 };
 const blockUserController = async (req, res) => {
   const id = req.params.id;
