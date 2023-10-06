@@ -33,6 +33,18 @@ module.exports = {
       screen: {
         type: Sequelize.STRING,
       },
+      address: {
+        type: Sequelize.STRING,
+      },
+      type: {
+        type: Sequelize.STRING,
+      },
+      time: {
+        type: Sequelize.STRING,
+      },
+      idFilm: {
+        type: Sequelize.INTEGER,
+      },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE,

@@ -25,7 +25,7 @@ module.exports = {
     ];
     for (let i = 1; i <= 101; i++) {
       userArray.push({
-        role: 0,
+        role: 2,
         username: `user${i}`,
         phonenumber: null,
         email: `user${i}@gmail.com`,

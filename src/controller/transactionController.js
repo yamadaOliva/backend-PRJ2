@@ -1,6 +1,7 @@
 import {
   createTransaction,
   getAllTransaction,
+  check
 } from "../service/transactionService.js";
 const createTransactionController = async (req, res) => {
   const transaction = req.body;
@@ -21,7 +22,18 @@ const getAllTransactionController = async (req, res) => {
     console.log(error);
   }
 };
+const checkController = async (req, res) => {
+  const { userId, filmId } = req.query;
+  console.log("=>>>", req.query);
+  try {
+    const result = await check(userId, filmId);
+    return res.status(200).json(result);
+  } catch (error) {
+    console.log(error);
+  }
+};
 module.exports = {
   createTransactionController,
   getAllTransactionController,
+  checkController
 };

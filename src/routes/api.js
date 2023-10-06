@@ -33,6 +33,7 @@ const initAPI = (app) => {
   //transaction
   router.post("/transaction", transactionController.createTransactionController);
   router.get("/transaction", transactionController.getAllTransactionController);
+  router.get("/transaction/check", transactionController.checkController);
   return app.use("/api/v1", router);
 };
 

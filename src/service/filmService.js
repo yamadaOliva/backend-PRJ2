@@ -38,6 +38,30 @@ const getUpcomingList = async (limit, page) => {
     console.log(error);
   }
 };
+const getShowingById = async (id) => {
+  try {
+    const showing = await db.Showing.findByPk(id);
+    return {
+      EC: 200,
+      EM: "Get showing successfully",
+      DT: showing,
+    };
+  } catch (error) {
+    console.log(error);
+  }
+};
+const getUpcomingById = async (id) => {
+  try {
+    const upcoming = await db.Upcoming.findByPk(id);
+    return {
+      EC: 200,
+      EM: "Get upcoming successfully",
+      DT: upcoming,
+    };
+  } catch (error) {
+    console.log(error);
+  }
+};
 module.exports = {
   getListShowing,
   getUpcomingList,
